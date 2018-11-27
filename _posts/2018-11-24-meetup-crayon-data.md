@@ -13,7 +13,7 @@ image: https://drive.google.com/uc?id=1aIFqpAIDjNBlA5srvigRyZzHAP67q0PH
 * No.of.talks - 5
 * No.of.seats - 50
 
-We had our first official meetup at IITM Research Park, Chennai on 23rd September 2018 from 1PM to 5PM. It was a terrific start for a community that has just started out. We had a variety of domain expert speakers sharing their insights and knowledge to the community. We had participants from varied experiences such as college students, working professionals, developers, AI enthusiasts and entrepreneurs.
+In this meetup, we had speakers focusing on Natural Language Processing (NLP) and Long-Short Term Memory (LSTM) networks. We had our first official sponsor - [Crayon Data](https://www.crayondata.com/){:target="_blank"}, Chennai who were generous to provide us their venue to organize the meetup.
 
 ### Speakers 
 

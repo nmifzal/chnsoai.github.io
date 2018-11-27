@@ -276,7 +276,9 @@ article.page {
 }
 
 .post h1 {
-  font-size: 16px;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 .wrapper-footer {
@@ -347,11 +349,15 @@ footer {
 }
 
 .cover-date {
-  color: white;
   font-size: 13px;
+  padding-left: 20px;
+  color: #b7b7b7;
+  margin-top: 5px;
+  margin-bottom: 20px;
 
   @include mobile {
-    font-size: 10px;
+    font-size: 13px;
+    padding-left: 20px;
   }
 }
 

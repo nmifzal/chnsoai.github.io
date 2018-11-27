@@ -1,42 +1,36 @@
 ---
 ---
 
-//
-// IMPORTS
-//
-
 @import "reset";
 @import "variables";
-// Syntax highlighting @import is at the bottom of this file
-
-/**************/
-/* BASE RULES */
-/**************/
+@import "highlights";
+@import "svg-icons";
+@import "splash";
 
 html {
   font-size: 100%;
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
+	background: #f2f2f2;
+  font: 18px/1.4 $font_body;
   color: $darkGray;
 }
 
-.container {
+.header {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  padding: 0 30px;
   width: 100%;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $font_header;
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 1.7;
-  margin: 1em 0 15px;
+  line-height: 1.5;
   padding: 0;
 
   @include mobile {
@@ -66,6 +60,7 @@ h4 {
 
 p {
   margin: 15px 0;
+  font-size: 13px;
 }
 
 a {
@@ -110,17 +105,15 @@ img {
   max-width: 100%;
 }
 
-// Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
 }
 
 .date {
-  font-style: italic;
-  color: $gray;
+  color: #afafaf;
+  font-size: 11px;
 }
 
-// Specify the color of the selection
 ::-moz-selection {
   color: $black;
   background: $lightGray;
@@ -130,8 +123,6 @@ img {
   background: $lightGray;
 }
 
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -142,16 +133,10 @@ img {
     clear: both;
 }
 
-/*********************/
-/* LAYOUT / SECTIONS */
-/*********************/
-
-//
-// .masthead
-//
-
-.wrapper-masthead {
-  margin-bottom: 50px;
+.global-container {
+    height: 100%;
+    width: 100%;
+    background-color: #f2f2f2;
 }
 
 .masthead {
@@ -192,18 +177,20 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #333;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: "Poppins";
   font-weight: 300;
-  font-size: 28px;
+  font-size: 20px;
   letter-spacing: 1px;
+  margin-top: 10px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
+  color: #666;
+  font-size: 0.7em;
+  font-family: Quicksand;
 
   @include mobile {
     margin: 3px 0;
@@ -212,8 +199,8 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  margin-top: 23px;
+  font-family: $font_header;
   font-size: 18px;
 
   @include mobile {
@@ -229,6 +216,8 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    color: #7744d7;
+    font-size: 12px;
 
     @include mobile {
       margin: 0 10px;
@@ -237,9 +226,18 @@ nav {
   }
 }
 
-//
-// .main
-//
+.content {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+article.post {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
 
 .posts > .post {
   padding-bottom: 2em;
@@ -271,19 +269,20 @@ nav {
   }
 }
 
+.post h1 {
+  font-size: 16px;
+}
+
 .wrapper-footer {
-  margin-top: 50px;
+  position: fixed;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: #292929;
+  width: 100%;
+  bottom: 0;
 }
 
 footer {
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
 }
-
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
-@import "svg-icons";

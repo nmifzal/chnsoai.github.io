@@ -47,7 +47,7 @@ $georgia: Georgia, serif;
 }
 
 .blog-category-box .inner_box {
-	width: 200px;
+	width: 150px;
     height: auto;
     border-radius: 5px;
     background-color: #fff;
@@ -60,25 +60,40 @@ $georgia: Georgia, serif;
 }
 
 .blog-category-box .inner_box h3 {
-	padding: 0 20px;
-	font-size: 12px;
-	margin: 10px 0;
-	text-align: left;
+    padding: 0 10px;
+    font-size: 12px;
+    margin: 10px 0;
+    text-align: left;
 }
 
 .blog-category-box .inner_box p {
-	margin: 15px 0;
+	margin: 10px 0;
     font-size: 11px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     color: #7c7979;
-    padding: 0px 20px;
+    padding: 0px 10px;
     text-align: left;
 }
 
 .blog-category-box .inner_box .front-date {
 	color: lightgray;
 	font-size: 10px;
+}
+
+.splash-content {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.splash-content p {
+  margin: 15px 0;
+  font-size: 13px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }

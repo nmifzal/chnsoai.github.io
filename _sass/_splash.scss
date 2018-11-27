@@ -25,3 +25,60 @@ $georgia: Georgia, serif;
     @content;
   }
 }
+
+.blog-category-box {
+
+}
+
+.blog-category-box ul {
+	margin: 0px !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.blog-category-box .inner_box img {
+	height: 150px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.blog-category-box .inner_box {
+	width: 200px;
+    height: auto;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 10px;
+    text-align: center;
+    transition: 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.blog-category-box .inner_box h3 {
+	padding: 0 20px;
+	font-size: 12px;
+	margin: 10px 0;
+	text-align: left;
+}
+
+.blog-category-box .inner_box p {
+	margin: 15px 0;
+    font-size: 11px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #7c7979;
+    padding: 0px 20px;
+    text-align: left;
+}
+
+.blog-category-box .inner_box .front-date {
+	color: lightgray;
+	font-size: 10px;
+}

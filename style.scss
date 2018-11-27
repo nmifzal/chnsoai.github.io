@@ -189,11 +189,11 @@ img {
   color: #666;
   font-size: 0.7em;
   font-family: Quicksand;
-  text-align: center;
-  width: 90%;
 
   @include mobile {
     margin: 3px 0;
+    text-align: center;
+    width: 90%;
   }
 }
 
@@ -239,17 +239,18 @@ nav {
   -webkit-box-orient: vertical;
 }
 
-.content {
+.blog-content {
   max-width: 740px;
   margin: 0 auto;
-  padding: 20px;
 }
 
 article.post {
   background-color: white;
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  margin: 20px;
+  @include mobile {
+    margin: 0px;
+  }
 }
 
 .posts > .post {

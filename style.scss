@@ -21,8 +21,9 @@ body {
   margin: 0 auto;
   padding: 0 30px;
   width: 100%;
-  background-color: #85f5d1;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background-color: #8056d4;
+  background-image: linear-gradient(62deg, #8056d4, #bd4646);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,9 +68,6 @@ a {
   color: $blue;
   text-decoration: none;
 	cursor: pointer;
-  &:hover, &:active {
-    color: $blue;
-  }
 }
 
 ul, ol {
@@ -175,7 +173,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: #333;
+  color: #fff;
   cursor: pointer;
   font-family: "Poppins";
   font-weight: 300;
@@ -186,7 +184,7 @@ img {
 
 .site-description {
   margin: 3px auto !important;
-  color: #666;
+  color: #fff;
   font-size: 0.7em;
   font-family: Quicksand;
 
@@ -215,7 +213,7 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
-    color: #000;
+    color: #ecf393;
     font-size: 12px;
 
     @include mobile {
@@ -241,7 +239,10 @@ nav {
 
 .blog-content {
   max-width: 740px;
-  margin: 0 auto;
+  margin: 20px auto;
+  @include mobile {
+    margin: 0px auto;
+  }
 }
 
 article.post {
@@ -250,6 +251,7 @@ article.post {
   margin: 20px;
   @include mobile {
     margin: 0px;
+    padding: 0px;
   }
 }
 
@@ -284,17 +286,24 @@ article.post {
   }
 }
 
+article.page {
+    padding: 20px;
+    background-color: white;
+}
+
 .post h1 {
   font-size: 16px;
 }
 
 .wrapper-footer {
   position: fixed;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
   background-color: #292929;
   width: 100%;
   bottom: 0;
+
+  @include mobile {
+    position: relative;
+  }
 }
 
 footer {
@@ -305,4 +314,81 @@ footer {
     font-size: 10px;
     margin: 0px;
   }
+}
+
+.cover-image {
+  background-image: url(https://drive.google.com/uc?id=1MAh7FkFfl9yOl3oQSqATPRCMR6vz5QkI);
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include mobile {
+    height: 250px;
+  }
+}
+
+.cover-overlay {
+  height: 450px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  @include mobile {
+    height: 250px;
+  }
+
+  h1 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 90%;
+
+    @include mobile {
+      font-size: 15px;
+      width: 80%;
+      line-height: 1.8;
+    }
+  }
+}
+
+.entry {
+  padding: 20px;
+}
+
+.cover-date {
+  color: white;
+  font-size: 13px;
+
+  @include mobile {
+    font-size: 10px;
+  }
+}
+
+.entry li {
+  font-size: 13px;
+}
+
+.entry ul {
+  padding-left: 15px;
+}
+
+figure {
+  padding: 5px;
+  margin: 10px 0;
+}
+
+img.typical-image {
+    border-radius: 5px;
+    border: 3px solid #e9e9e9;
+}
+
+.footer-relative {
+  position: relative !important;
 }

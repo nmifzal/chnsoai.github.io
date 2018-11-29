@@ -40,42 +40,40 @@ $georgia: Georgia, serif;
 }
 
 .blog-category-box .inner_box img {
-	height: 150px;
-    width: 100%;
+    height: 150px;
     object-fit: cover;
     object-position: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
     @include mobile {
-    	height: 150px;
+    	height: 165px;
     }
 }
 
 .blog-category-box .inner_box {
-	width: 200px;
-    height: auto;
+	width: 500px;
     border-radius: 5px;
     background-color: #fff;
     margin: 15px;
     text-align: center;
     transition: 0.2s ease-in;
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 10px;
+    display: flex;
     @include mobile {
-    	width: 150px;
-    	margin: 5px;
+    	width: 100%;
+    	margin: 10px 0;
     }
 }
 
 .blog-category-box .inner_box h3 {
     padding: 0 10px;
-    font-size: 12px;
+    font-size: 15px;
     margin: 10px 0;
     text-align: left;
 }
 
 .blog-category-box .inner_box p {
 	margin: 10px 0;
-    font-size: 11px;
+    font-size: 12px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -88,6 +86,7 @@ $georgia: Georgia, serif;
 .blog-category-box .inner_box .front-date {
 	color: lightgray;
 	font-size: 10px;
+	text-align: right;
 }
 
 .splash-content {
@@ -111,4 +110,17 @@ $georgia: Georgia, serif;
     margin: 20px 0;
     text-align: center;
     font-size: 1.3em;
+}
+
+.blog-category-box .inner_box .post-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.category-wrapper h1 span {
+    background-color: #fff68f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #404040;
+    font-size: 15px;
 }

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Webinar - Deep Learning for Object Detection, Segmentation and Classification
+title: Deep Learning for Object Detection, Segmentation and Classification
 description: Deep dive into deep learning for computer vision by Dr. Mohan Raj, Data Scientist, HCL Technologies, Chennai.
 image: https://drive.google.com/uc?id=1hL9xU8nKEHeLQsDNqwA6eKlinX7SpwuE
 category: webinar

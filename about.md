@@ -10,4 +10,4 @@ School of AI is a non-profit educational movement of bringing all the AI enthusi
 
 In this website, you will find the meetups we have organized and collaborated, open-source projects that we as a community worked on & contributed, and some other community related information such as hackathons, events and much more. Feel free to join our community if you are interested in AI.
 
-[slack](https://programming-wizards.slack.com/messages/CC78EBZNX){:target="_blank"} \| [github](https://github.com/chnsoai/chnsoai.github.io){:target="_blank"}
+[slack](https://programming-wizards.slack.com/messages/CC78EBZNX){:target="_blank"} \| [github](https://github.com/chnsoai/chnsoai.github.io){:target="_blank"} \| [meetup](https://www.meetup.com/Chennai-School-of-AI/){:target="_blank"}

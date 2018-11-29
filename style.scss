@@ -230,9 +230,11 @@ article.post {
   background-color: white;
   padding: 20px;
   margin: 20px;
+  border-radius: 10px;
   @include mobile {
     margin: 0px;
     padding: 0px;
+    border-radius: 0px;
   }
 }
 
@@ -270,6 +272,10 @@ article.post {
 article.page {
     padding: 20px;
     background-color: white;
+    border-radius: 10px;
+    @include mobile {
+        border-radius: 0px;
+    }
 }
 
 .post h1 {

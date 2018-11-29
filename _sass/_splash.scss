@@ -43,20 +43,27 @@ $georgia: Georgia, serif;
 	height: 150px;
     width: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
+    @include mobile {
+    	height: 150px;
+    }
 }
 
 .blog-category-box .inner_box {
-	width: 150px;
+	width: 200px;
     height: auto;
     border-radius: 5px;
     background-color: #fff;
-    margin: 5px;
+    margin: 15px;
     text-align: center;
     transition: 0.2s ease-in;
     position: relative;
     overflow: hidden;
     padding-bottom: 10px;
+    @include mobile {
+    	width: 150px;
+    	margin: 5px;
+    }
 }
 
 .blog-category-box .inner_box h3 {
@@ -85,8 +92,10 @@ $georgia: Georgia, serif;
 
 .splash-content {
   max-width: 740px;
-  margin: 0 auto;
+  margin: 5px auto;
   padding: 20px;
+  background-color: #f2f2f2;
+  margin-bottom: 20px;
 }
 
 .splash-content p {
@@ -96,4 +105,10 @@ $georgia: Georgia, serif;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+
+.splash-content h1 {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.3em;
 }

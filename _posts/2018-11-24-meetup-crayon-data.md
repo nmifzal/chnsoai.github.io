@@ -3,6 +3,7 @@ layout: post
 title: Meetup @ Crayon Data, Chennai
 description: This time we are planning to explore text and natural language processing.
 image: https://drive.google.com/uc?id=1aIFqpAIDjNBlA5srvigRyZzHAP67q0PH
+category: meetup
 ---
 
 ### Summary 

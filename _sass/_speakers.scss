@@ -11,7 +11,7 @@
 }
 
 .blog-category-box .speakers_box {
-  width: 150px;
+  width: 180px;
   border-radius: 5px;
   background-color: #fff;
   margin: 15px;
@@ -19,9 +19,11 @@
   transition: 0.2s ease-in;
   display: flex;
   flex-direction: column;
+  padding-bottom: 10px;
+  height: 320px;
   @include mobile {
-    width: 150px;
-    margin: 10px 0;
+    width: 180px;
+    margin: 10px;
   }
 }
 
@@ -29,19 +31,17 @@
   padding: 0 10px;
   font-size: 15px;
   margin: 10px 0;
-  text-align: left;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 .blog-category-box .speakers_box p {
   margin: 10px 0;
   font-size: 12px;
   overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
   color: #7c7979;
   padding: 0px 10px;
-  text-align: left;
+  text-align: center;
 }
 
 .blog-category-box .speakers_box .front-date {
@@ -83,4 +83,28 @@
 
 .page_description {
   color: #ffffffa8;
+  text-align: center;
+}
+
+.speakers_circle {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px auto;
+}
+
+.speaker_social a {
+  margin: 0 5px;
+}
+
+.btn_catcher {
+  width: auto;
+  background-color: #ffff5d;
+  color: black;
+  padding: 10px 15px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
 }

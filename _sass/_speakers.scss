@@ -56,6 +56,8 @@
 }
 
 .speakers_entry {
+  margin-top: 20px;
+  margin-bottom: 50px;
   @include mobile {
     border-radius: 0 !important;
     box-shadow: none !important;
@@ -77,4 +79,8 @@
 
 .footer-fixed {
   position: fixed !important;
+}
+
+.page_description {
+  color: #ffffffa8;
 }

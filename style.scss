@@ -65,7 +65,7 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #8056d4;
   text-decoration: none;
 	cursor: pointer;
 }
@@ -287,7 +287,8 @@ article.page {
     margin: 20px auto;
     margin-bottom: 80px;
     @include mobile {
-        border-radius: 0px;
+      margin: 0px auto;
+      border-radius: 0px;
     }
 }
 
@@ -395,6 +396,7 @@ footer {
   margin-bottom: 50px;
   @include mobile {
     margin-top: 0px;
+    padding: 20px;
   }
 }
 

@@ -47,7 +47,7 @@ permalink: /profs/
 							<div class="speakers_circle" style="background-image: url('https://drive.google.com/uc?id=18lBah4TkPijnN83_uuaxt0ZoCtT_-n4r')"></div>
 							<div class="post-box">
 								<h3>Kumar Sachidanandam</h3>
-								<p>Co-founder and Managing Partner of Ydealogy Ventures | Dean at School of AI, Chennai</p>
+								<p>Co-founder and Managing Partner of Ydealogy Ventures</p>
 								<div class="speaker_social">
 									<a href="https://ydealogy.com/" target="_blank"><img src="/images/icons/web.png"></a>
 									<a href="https://twitter.com/KumarSachi" target="_blank"><img src="/images/icons/twitter.png"></a>

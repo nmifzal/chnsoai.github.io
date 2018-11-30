@@ -243,12 +243,10 @@ nav {
 
 article.post {
   background-color: white;
-  padding: 20px;
   margin: 20px;
   border-radius: 10px;
   @include mobile {
     margin: 0px;
-    padding: 0px;
     border-radius: 0px;
   }
 }
@@ -294,10 +292,14 @@ article.page {
 }
 
 .post h1 {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1.2;
   text-align: center;
   color: white;
+
+  @include mobile {
+    font-size: 20px;
+  }
 }
 
 .post-header {
@@ -380,6 +382,10 @@ footer {
   font-size: 13px;
   color: #ffffff4f;
   text-align: center;
+
+  @include mobile {
+    margin: 5px;
+  }
 }
 
 .entry li {

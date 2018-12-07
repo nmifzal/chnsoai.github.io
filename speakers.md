@@ -44,14 +44,13 @@ permalink: /profs/
 					</li>
 					<li>
 						<div class='speakers_box'>
-							<div class="speakers_circle" style="background-image: url('https://drive.google.com/uc?id=18lBah4TkPijnN83_uuaxt0ZoCtT_-n4r')"></div>
+							<div class="speakers_circle" style="background-image: url('https://drive.google.com/uc?id=1L9fGgXqWydrATBJfmJFMV4LmLa5ADeuV')"></div>
 							<div class="post-box">
-								<h3>Kumar Sachidanandam</h3>
-								<p>Co-founder and Managing Partner of Ydealogy Ventures</p>
+								<h3>Lokesh Kumar</h3>
+								<p>Student head, Computer Vision and Intelligence Group, IIT Madras</p>
 								<div class="speaker_social">
-									<a href="https://ydealogy.com/" target="_blank"><img src="/images/icons/web.png"></a>
-									<a href="https://twitter.com/KumarSachi" target="_blank"><img src="/images/icons/twitter.png"></a>
-									<a href="https://www.linkedin.com/in/kumarsachi/" target="_blank"><img src="/images/icons/linkedin.png"></a>
+									<a href="https://iitmcvg.github.io/" target="_blank"><img src="/images/icons/web.png"></a>
+									<a href="https://www.linkedin.com/in/lokesh-kumar-t/" target="_blank"><img src="/images/icons/linkedin.png"></a>
 								</div>
 							</div>
 						</div>

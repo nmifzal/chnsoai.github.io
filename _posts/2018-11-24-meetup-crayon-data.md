@@ -31,9 +31,14 @@ In this meetup, we had speakers focusing on Natural Language Processing (NLP) an
 
 ### What we learnt
 * Natural Language Processing Basics
+* Machine Learning Basics
 * LSTM fundamentals
 * Multi-label Text Classification
-* Machine Learning for text understanding
+* Machine Learning for Text Understanding
+
+### Video
+
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/7sMjvv4U9ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ### Group pic
 

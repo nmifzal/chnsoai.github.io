@@ -397,6 +397,7 @@ footer {
   @include mobile {
     margin-top: 0px;
     padding: 20px;
+    border-radius: 0px;
   }
 }
 
@@ -439,7 +440,10 @@ img.typical-image {
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 30px; height: 0; overflow: hidden;
+  padding-top: 30px; 
+  height: 0; 
+  overflow: hidden;
+  margin: 10px 0;
 }
 
 .video-container iframe,

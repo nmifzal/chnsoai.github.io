@@ -1,6 +1,7 @@
 ---
 layout: profs
 title: Profs
+description: Our intellectual speakers
 permalink: /profs/
 ---
 

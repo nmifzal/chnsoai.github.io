@@ -3,6 +3,7 @@ layout: post
 title: Meetup @ Crayon Data, Chennai
 description: Chatbots, learning from text, generating text! We are into Natural Language Processing this time. Expert speakers from NLP domain shared their experiences.
 image: https://drive.google.com/uc?id=1aIFqpAIDjNBlA5srvigRyZzHAP67q0PH
+featureimage: /images/logo.png
 category: meetup
 ---
 

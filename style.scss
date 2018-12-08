@@ -297,16 +297,16 @@ article.page {
   line-height: 1.2;
   text-align: center;
   color: white;
-  width: 60%;
+  width: 50%;
 
   @include mobile {
-    width: 80%;
+    width: 100%;
     font-size: 20px;
   }
 }
 
 .post-header {
-  height: 200px;
+  height: 300px;
   padding: 30px;
   margin: 0 auto;
   width: 100%;
@@ -398,6 +398,7 @@ footer {
     margin-top: 0px;
     padding: 20px;
     border-radius: 0px;
+    margin-bottom: 0px;
   }
 }
 

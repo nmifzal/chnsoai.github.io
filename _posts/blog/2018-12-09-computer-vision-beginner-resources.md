@@ -151,6 +151,7 @@ When it comes to making a computer learn images/videos, we need datasets. There 
 1. [102 Category Flower Dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/){:target="_blank"}
 2. [Caltech-UCSD Birds 200](http://www.vision.caltech.edu/visipedia/CUB-200.html){:target="_blank"}
 
+---
 
 ### Bonus Resources
 

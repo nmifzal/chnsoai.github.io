@@ -57,6 +57,35 @@ layout: splash
 </div>
 
 <div class="category-wrapper">
+	<h1><span>BLOG</span></h1>
+
+	<div class="blog-category-box padding-box">
+		<div class="category-box row-box">
+			<ul>
+				{% for post in site.posts %}
+				{% if post.category contains 'blog' %}
+				<li>
+					<div class='blog_box'>
+						<a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
+							<div class='post-box'>
+								<img src="{{ post.image }}" class="blog-image" />
+								<div class="post-box">
+									<h3>{{ post.title }}</h3>
+									<p>{{ post.description }}</p>
+									<p class='front-date'>{{ post.date | date_to_long_string }}</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</li>
+				{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="category-wrapper">
 	<h1 style="margin-bottom: 40px !important;"><span>DEANS</span></h1>
 
 	<div class="blog-category-box">

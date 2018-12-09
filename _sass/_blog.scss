@@ -1,0 +1,130 @@
+.blog-category-box .blog_box img {
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 100%;
+  @include mobile {
+    height: 165px;
+  }
+}
+
+.blog-category-box .blog_box {
+  width: 250px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 15px;
+  text-align: center;
+  transition: 0.2s ease-in;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+  @include mobile {
+    margin: 10px;
+  }
+}
+
+.blog-category-box .blog_box:hover {
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.blog-category-box .blog_box h3 {
+  padding: 0 10px;
+  font-size: 15px;
+  margin: 10px 0;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.blog-category-box .blog_box p {
+  margin: 10px 0;
+  font-size: 12px;
+  overflow: hidden;
+  color: #7c7979;
+  padding: 0px 10px;
+  text-align: left;
+}
+
+.blog-category-box .blog_box .front-date {
+  color: lightgray;
+  font-size: 10px;
+  text-align: right;
+}
+
+.blog-category-box .blog_box .post-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.speakers_entry {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  @include mobile {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background-color: #f2f2f2 !important;
+  }
+}
+
+.speaker_social {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.speaker_social img {
+  height: 15px !important;
+  width: 15px !important
+}
+
+.footer-fixed {
+  position: fixed !important;
+}
+
+.page_description {
+  color: #ffffffa8;
+  text-align: center;
+}
+
+.speakers_circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px auto;
+}
+
+.speaker_social a {
+  margin: 0 5px;
+}
+
+.btn_catcher {
+  width: auto;
+  background-color: #ffff5d;
+  color: black;
+  padding: 10px 15px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn_catcher:hover {
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.blog-category-box .row-box ul {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0px !important;
+  flex-wrap: nowrap;
+  @include mobile {
+    justify-content: center;
+  }
+}

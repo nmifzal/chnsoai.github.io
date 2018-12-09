@@ -7,6 +7,7 @@
 @import "svg-icons";
 @import "splash";
 @import "speakers";
+@import "blog";
 
 html {
   font-size: 100%;
@@ -16,6 +17,17 @@ body {
 	background: #f2f2f2;
   font: 18px/1.4 $font_body;
   color: $darkGray;
+}
+
+hr {
+  border-color: #f4f4f438;
+  margin: 25px 0;
+}
+
+.note {
+  background-color: #f5f0ff;
+  padding: 10px;
+  margin: 20px 0;
 }
 
 .header {
@@ -455,4 +467,12 @@ img.typical-image {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.blog-image {
+  height: 150px !important;
+  background-repeat: no-repeat;
+  object-fit: contain !important;
+  padding: 30px !important;
+  background-color: lightseagreen;
 }

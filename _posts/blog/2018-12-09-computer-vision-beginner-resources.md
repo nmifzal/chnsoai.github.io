@@ -111,6 +111,47 @@ When it comes to code, libraries becomes handy! Python is the programming langua
 
 ---
 
+### Datasets
+
+When it comes to making a computer learn images/videos, we need datasets. There are publicly available datasets around the internet to benchmark algorithms for a specific problem.
+
+**Bulk Dataset Links**
+
+1. [CV Datasets on the Web](http://www.cvpapers.com/datasets.html){:target="_blank"}
+2. [Yet Another Computer Vision Index To Datasets (YACVID)](http://riemenschneider.hayko.at/vision/dataset/){:target="_blank"}
+3. [Computer Vision Datasets](http://clickdamage.com/sourcecode/cv_datasets.php){:target="_blank"}
+4. [Databases or Datasets for Computer Vision Applications and Testing](http://datasets.visionbib.com/info-index.html){:target="_blank"}
+5. [VisualData](https://www.visualdata.io/){:target="_blank"}
+7. [Google Dataset Search](https://toolbox.google.com/datasetsearch){:target="_blank"}
+
+**Image Classification**
+
+1. [ImageNet Large Scale Visual Recognition Challenge](http://www.image-net.org/challenges/LSVRC/2014/){:target="_blank"}
+2. [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/){:target="_blank"}
+3. [CIFAR](https://www.cs.toronto.edu/~kriz/cifar.html){:target="_blank"}
+
+**Scene Recognition**
+
+1. [SUN database](http://groups.csail.mit.edu/vision/SUN/){:target="_blank"}
+2. [Places dataset](http://places.csail.mit.edu/){:target="_blank"}
+
+**Image Captioning**
+
+1. [Microsoft COCO dataset](http://cocodataset.org/#home){:target="_blank"}
+2. [Flickr 8K](http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html){:target="_blank"}
+3. [Flickr 30K](http://shannon.cs.illinois.edu/DenotationGraph/){:target="_blank"}
+
+**Pedestrian Detection**
+
+1. [Caltech Pedestrian Detection Benchmark](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/){:target="_blank"}
+2. [Robust Multi-Person Tracking from Mobile Platforms](https://data.vision.ee.ethz.ch/cvl/aess/dataset/){:target="_blank"}
+
+**Fine-grained Classification**
+
+1. [102 Category Flower Dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/){:target="_blank"}
+2. [Caltech-UCSD Birds 200](http://www.vision.caltech.edu/visipedia/CUB-200.html){:target="_blank"}
+
+
 ### Bonus Resources
 
 1. [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision){:target="_blank"}

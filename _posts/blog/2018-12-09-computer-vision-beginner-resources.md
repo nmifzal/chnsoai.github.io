@@ -3,13 +3,21 @@ layout: post
 title: Computer Vision Beginner Resources
 description: In this blog post, you will find resources, libraries, blogs, courses and educational content for beginners in Computer Vision. Feel free to share it with people interested.
 image: /images/blog/computer-vision-resources.png
+featureimage: /images/logo.png
 category: blog
 ---
+
+Computer Vision is a broad field that has gained massive attraction after AlexNet competed in ImageNet Large Scale Visual Recognition Challenge (2012). Below you can see the Google trend of **Computer Vision** keyword being searched over the past 5 years.
+
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1644_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"computer vision","geo":"","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"date=today%205-y&q=computer%20vision","guestPath":"https://trends.google.com:443/trends/embed/"}); </script> 
+
+
+Just like any other domain in Artificial Intelligence, Computer Vision is a challenging domain as it involves making computers understand and extract meaning from the outside world. Knowledge on Computer Vision makes one to solve problems in key areas such as Agriculture, Healthcare, Banking, Automotive, Retail,  Industrial usecases and Security - [read more](https://emerj.com/ai-sector-overviews/computer-vision-applications-shopping-driving-and-more/){:target="_blank"}.
 
 In this blog post, you will find resources such as lectures, libraries, blogs, courses and educational content related to applying Artificial Intelligence in Computer Vision for beginners. If you find out any interesting or valuable content, kindly add it in the comment section below so that we will add it here.
 
 <div class="note">
-	<p><b>Note:</b> This blog post is for absolute beginners who are new to Computer Vision and Artificial Intelligence.</p>
+	<p><b>Note:</b> This blog post is for <i>absolute beginners</i> who are new to <i>Computer Vision</i> and <i>Artificial Intelligence</i>.</p>
 </div>
 
 ### CV Lectures

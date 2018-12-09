@@ -5,6 +5,7 @@ description: In this blog post, you will find resources, libraries, blogs, cours
 image: /images/blog/computer-vision-resources.png
 featureimage: /images/logo.png
 category: blog
+author: Gogul Ilango
 ---
 
 Computer Vision is a broad field that has gained massive attraction after AlexNet competed in ImageNet Large Scale Visual Recognition Challenge (2012). Below you can see the Google trend of **Computer Vision** keyword being searched over the past 5 years.
@@ -73,6 +74,8 @@ There are so many CV blogs that deliver top-notch tutorials on how to use a spec
 7. [Computer Vision Talks](https://computer-vision-talks.com/){:target="_blank"}
 8. [AI Shack](http://aishack.in/){:target="_blank"}
 9. [Computer Vision Basics with Python Keras and OpenCV](https://github.com/jrobchin/Computer-Vision-Basics-with-Python-Keras-and-OpenCV){:target="_blank"}
+10. [Andrej Karpathy - Tesla](http://karpathy.github.io/){:target="_blank"}
+11. [Chris Olah - Google](http://colah.github.io/){:target="_blank"}
 
 **Organization Blogs**
 

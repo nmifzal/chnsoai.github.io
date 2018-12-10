@@ -27,7 +27,7 @@
     transition: 0.2s ease-in;
     display: flex;
     transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
-    border: 1px solid #e7e7e7;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
     @include mobile {
     	width: 100%;
     	margin: 10px 0;
@@ -43,6 +43,9 @@
     font-size: 15px;
     margin: 10px 0;
     text-align: left;
+    @include mobile {
+        font-size: 13px;
+    }
 }
 
 .blog-category-box .inner_box p {
@@ -54,6 +57,9 @@
     color: #7c7979;
     padding: 0px 10px;
     text-align: left;
+    @include mobile {
+        font-size: 10px;
+    }
 }
 
 .blog-category-box .inner_box .front-date {
@@ -109,8 +115,8 @@
 
 .category-wrapper {
     margin: 15px 0;
-    background-color: whitesmoke;
-    border-radius: 5px;
+    background-color: white;
+    border-radius: 4px;
     box-shadow: 0 1px 8px 0 rgba(0,0,0,.2), 0 3px 4px 0 rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.12);
     padding: 30px 0;
 }

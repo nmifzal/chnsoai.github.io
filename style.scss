@@ -514,3 +514,42 @@ img.typical-image {
   margin: 5px 0;
   color: #212122;
 }
+
+.category-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.category-blog {
+  background-image: url("/images/icons/blog.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+}
+
+.category-meetup {
+  background-image: url("/images/icons/meetup.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+}
+
+.category-webinar {
+  background-image: url("/images/icons/webinar.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+}
+
+.category-dean {
+  background-image: url(/images/icons/dean.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+}

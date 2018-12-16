@@ -92,6 +92,9 @@
 
 .footer-fixed {
   position: fixed !important;
+  @include mobile {
+    position: relative !important;
+  }
 }
 
 .page_description {

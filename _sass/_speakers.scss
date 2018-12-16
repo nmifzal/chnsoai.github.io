@@ -13,7 +13,7 @@
 .blog-category-box .speakers_box {
   width: 180px;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #121111;
   margin: 15px;
   text-align: center;
   transition: 0.2s ease-in;
@@ -61,11 +61,19 @@
 }
 
 .speakers_entry {
-  margin-top: 20px;
-  margin-bottom: 50px;
+  background-color: #1c1c1c;
+  margin: 0px auto;
   @include mobile {
     border-radius: 0 !important;
     box-shadow: none !important;
+  }
+}
+
+.speakers_entry .blog-category-box {
+  width: 80%;
+  margin: 0px auto;
+  @include mobile {
+    width: 100%;
   }
 }
 

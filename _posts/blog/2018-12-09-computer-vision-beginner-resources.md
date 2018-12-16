@@ -11,13 +11,13 @@ author: Gogul Ilango
 <div class="toc">
 	<h3>Contents</h3>
 	<ul>
-		<li><a href="cv-lectures">CV Lectures</a></li>
-		<li><a href="python-courses">Python Courses</a></li>
-		<li><a href="ml-dl-courses">ML/DL Courses</a></li>
-		<li><a href="blogs">Blogs</a></li>
-		<li><a href="libraries">Libraries</a></li>
-		<li><a href="datasets">Datasets</a></li>
-		<li><a href="bonus-resources">Bonus Resources</a></li>
+		<li><a href="#cv-lectures">CV Lectures</a></li>
+		<li><a href="#python-courses">Python Courses</a></li>
+		<li><a href="#ml-dl-courses">ML/DL Courses</a></li>
+		<li><a href="#blogs">Blogs</a></li>
+		<li><a href="#libraries">Libraries</a></li>
+		<li><a href="#datasets">Datasets</a></li>
+		<li><a href="#bonus-resources">Bonus Resources</a></li>
 	</ul>
 </div>
 

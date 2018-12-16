@@ -14,6 +14,7 @@ author: Gogul Ilango
 		<li><a href="#cv-lectures">CV Lectures</a></li>
 		<li><a href="#python-courses">Python Courses</a></li>
 		<li><a href="#ml-dl-courses">ML/DL Courses</a></li>
+		<li><a href="#pyimagesearch">PyImageSearch</a></li>
 		<li><a href="#blogs">Blogs</a></li>
 		<li><a href="#libraries">Libraries</a></li>
 		<li><a href="#datasets">Datasets</a></li>
@@ -74,6 +75,16 @@ Currently, to solve Computer Vision problems, Machine Learning (ML) and Deep Lea
 * [Deep Learning with Tensorflow](https://www.edx.org/course/deep-learning-with-tensorflow){:target="_blank"}
 * [Machine Learning, Data Science and Deep Learning with Python](https://www.udemy.com/data-science-and-machine-learning-with-python-hands-on/){:target="_blank"}
 * [NPTEL - Deep Learning](https://nptel.ac.in/noc/individual_course.php?id=noc18-cs41){:target="_blank"}
+
+---
+
+<h3 id="pyimagesearch">PyImageSearch</h3>
+
+To learn practical computer vision using Python and OpenCV, [Adrian Rosebrock](https://www.pyimagesearch.com/about/){:target="_blank"} has excellent courses and books which I felt is completely worth it. I highly encourage beginners to enroll in his courses, buy his valuable books on CV and follow his [amazing CV blog](https://www.pyimagesearch.com/){:target="_blank"}.
+
+* [PyImageSearch - Practical Python and OpenCV](https://www.pyimagesearch.com/practical-python-opencv/){:target="_blank"}
+* [PyImageSearch - Deep Learning for Computer Vision](https://www.pyimagesearch.com/deep-learning-computer-vision-python-book/){:target="_blank"}
+* [PyImageSearch - Gurus](https://www.pyimagesearch.com/pyimagesearch-gurus/){:target="_blank"}
 
 ---
 

@@ -104,6 +104,10 @@ a {
 	cursor: pointer;
 }
 
+a:hover {
+  color: white;
+}
+
 ul, ol {
   margin: 15px 0;
   padding-left: 15px;
@@ -435,10 +439,9 @@ footer {
   max-width: 800px;
   padding: 20px 30px;
   margin: 0 auto;
-  margin-top: -45px;
-  background-color: #1c1c1c;
+  margin-top: 20px;
+  background-color: #121111;
   border-radius: 5px;
-  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12);
   margin-bottom: 50px;
   @include mobile {
     margin-top: 0px;
@@ -557,4 +560,14 @@ img.typical-image {
   background-size: contain;
   height: 50px;
   width: 50px;
+}
+
+.toc {
+  width: 35%;
+  border: 1px solid #2a2828;
+  padding: 10px 20px;
+  border-radius: 4px;
+  @include mobile {
+    width: 100%;
+  }
 }

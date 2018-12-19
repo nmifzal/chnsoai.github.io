@@ -5,6 +5,7 @@ description: Deep dive into deep learning for computer vision by Dr. Mohan Raj, 
 image: https://drive.google.com/uc?id=1hL9xU8nKEHeLQsDNqwA6eKlinX7SpwuE
 featureimage: /images/logo.png
 category: webinar
+author: Dr.Mohan Raj, PhD
 ---
 
 ### Summary

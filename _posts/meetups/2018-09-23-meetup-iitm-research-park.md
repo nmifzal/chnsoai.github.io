@@ -1,8 +1,8 @@
 ---
 layout: post
-title: First Meetup @ IITM Research Park, Chennai
+title: Meetup - 1 at IITM Research Park, Chennai
 description: Shout loud! We are school of AI from Chennai. It was a terrific start for a community that has just started out. Expert speakers from different domains shared their experiences in AI.
-image: https://drive.google.com/uc?id=1MAh7FkFfl9yOl3oQSqATPRCMR6vz5QkI
+image: https://drive.google.com/uc?id=1CJSF-iVKmkw4rZ8BOa827tbhA5NB_Mey
 featureimage: /images/logo.png
 category: meetup
 ---
@@ -53,5 +53,5 @@ We had our first official meetup at IITM Research Park, Chennai on 23rd Septembe
 ### Poster
 
 <figure>
-  <img src="https://drive.google.com/uc?id=1MAh7FkFfl9yOl3oQSqATPRCMR6vz5QkI" class="typical-image" />
+  <img src="https://drive.google.com/uc?id=1CJSF-iVKmkw4rZ8BOa827tbhA5NB_Mey" class="typical-image" />
 </figure>

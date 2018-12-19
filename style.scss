@@ -99,9 +99,17 @@ p {
 }
 
 a {
-  color: #985ec5;
+  color: $accent_500;
   text-decoration: none;
 	cursor: pointer;
+}
+
+ul a {
+  color: white;
+}
+
+ul a:hover {
+  color: $accent_500;
 }
 
 a:hover {
@@ -191,6 +199,8 @@ img {
   align-items: center;
   justify-content: center;
   height: 250px;
+  position: relative;
+  overflow: hidden;
   @include mobile {
     height: 200px;
     flex-direction: column;
@@ -224,7 +234,7 @@ img {
   color: #ededed;
   cursor: pointer;
   font-family: $font_header;
-  font-weight: 300;
+  font-weight: bold;
   font-size: 30px;
   letter-spacing: 1px;
   text-align: center;
@@ -236,8 +246,8 @@ img {
 .site-description {
   margin: 3px auto !important;
   color: #b3b3b3;
-  font-size: 15px;
-  font-family: "Quicksand";
+  font-size: 16px;
+  font-family: $font_body;
   line-height: 1.7;
 
   @include mobile {
@@ -251,7 +261,7 @@ img {
 nav {
   font-family: $font_body;
   font-size: 18px;
-  background-color: #121111;
+  background-color: $accent_700;
   padding: 10px;
   padding-bottom: 15px;
   text-align: center;
@@ -388,7 +398,7 @@ footer {
   text-align: center;
   p {
     color: #9c9c9c;
-    font-size: 10px;
+    font-size: 12px;
     margin: 0px;
   }
 }
@@ -570,4 +580,9 @@ img.typical-image {
   @include mobile {
     width: 100%;
   }
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
 }

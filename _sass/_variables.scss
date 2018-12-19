@@ -1,10 +1,8 @@
-
-//
-// VARIABLES
-//
-
 // Colors
 $blue: #4183C4;
+
+$accent_500: #e23d3d;
+$accent_700: #a22222;
 
 // Grays
 $black: #000;
@@ -20,7 +18,7 @@ $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
 
 $font_header: "Nunito" ;
-$font_body: "Quicksand";
+$font_body: "Nunito";
 
 // Mobile breakpoints
 @mixin mobile {

@@ -41,7 +41,7 @@
 
 .blog-category-box .inner_box h3 {
     padding: 0 10px;
-    font-size: 15px;
+    font-size: 17px;
     margin: 10px 0;
     text-align: left;
     color: #c7c6c9;
@@ -82,11 +82,14 @@
 
 .splash-content p {
   margin: 15px 0;
-  font-size: 13px;
+  font-size: 16px;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  @include mobile {
+    font-size: 13px;
+  }
 }
 
 .splash-content h1 {

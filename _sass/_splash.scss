@@ -108,10 +108,22 @@
     text-align: left;
     font-size: 20px;
     color: #ccd0d0;
-    padding-left: 15px;
+    padding-left: 20px;
+    font-family: 'Mali', cursive;
+    position: relative;
     @include mobile {
-        padding-left: 0px;
+        padding-left: 20px;
     }
+}
+
+.splash-content h1:before {
+    content: "#";
+    position: absolute;
+    left: -3px;
+    top: -10px;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 30px;
+    color: #3f3f3f;
 }
 
 .blog-category-box .inner_box .post-box {

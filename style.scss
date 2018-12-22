@@ -617,3 +617,14 @@ img.typical-image {
 .btn-night-mode:focus {
   outline: none;
 }
+
+table, tr, td {
+  border: 1px solid #464646;
+  padding: 10px;
+  color: #939393;
+  font-size: 15px;
+  margin: 20px 0;
+  @include mobile {
+    font-size: 13px;
+  }
+}

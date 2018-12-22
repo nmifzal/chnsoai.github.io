@@ -10,11 +10,11 @@ category: meetup
 
 ### Summary 
 
-* Venue - Crayon Data, OMR, Taramani, Chennai
-* Date - 24 November 2018
-* Time - 2PM to 5.30PM
-* No.of.talks - 5
-* No.of.seats - 50
+| Venue       | Crayon Data, OMR, Taramani, Chennai |
+| Date        | 24 November 2018                    |
+| Timing      | 2PM to 5.30PM                       |
+| No.of.seats | 50                                  |
+| No.of.talks | 5                                   |
 
 In this meetup, we had speakers focusing on Natural Language Processing (NLP) and Long-Short Term Memory (LSTM) networks. We had our first official sponsor - [Crayon Data](https://www.crayondata.com/){:target="_blank"}, Chennai who were generous to provide us their venue to organize the meetup.
 

@@ -1614,3 +1614,16 @@ img.typical-image {
 .btn-night-mode:focus {
   outline: none;
 }
+
+table, tr, td {
+  border: 1px solid #e3e3e3;
+  padding: 10px;
+  color: #3c3c3c;
+  font-size: 15px;
+  margin: 20px 0;
+}
+@media screen and (max-width: 640px) {
+  table, tr, td {
+    font-size: 13px;
+  }
+}

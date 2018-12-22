@@ -10,11 +10,11 @@ category: meetup
 
 ### Summary 
 
-* Venue - IIT Madras Research Park, Chennai
-* Date - 23 September 2018
-* Timing - 1PM to 5PM
-* No.of.seats - 150
-* No.of.talks - 7
+| Venue       | IIT Madras Research Park, Chennai |
+| Date        | 23 September 2018                 |
+| Timing      | 1PM to 5PM                        |
+| No.of.seats | 150                               |
+| No.of.talks | 7                                 |
 
 We had our first official meetup at IITM Research Park, Chennai on 23rd September 2018 from 1PM to 5PM. It was a terrific start for a community that has just started out. We had a variety of domain expert speakers sharing their insights and knowledge to the community. We had participants from varied experiences such as college students, working professionals, developers, AI enthusiasts and entrepreneurs.
 

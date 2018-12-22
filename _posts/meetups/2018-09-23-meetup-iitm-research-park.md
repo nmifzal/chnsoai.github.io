@@ -45,14 +45,17 @@ We had our first official meetup at IITM Research Park, Chennai on 23rd Septembe
 * Machine Learning for Natural Language Processing.
 * Deep Learning for Music and Art.
 
-### Group pic
+<br>
 
-<figure>
-  <img src="https://drive.google.com/uc?id=1sRxoJ3Yi6ssPYDStW76LyD9K0UytEeqR" class="typical-image" />
-</figure>
+### Media
 
-### Poster
-
-<figure>
-  <img src="https://drive.google.com/uc?id=1CJSF-iVKmkw4rZ8BOa827tbhA5NB_Mey" class="typical-image" />
-</figure>
+<div class="media-wrapper">
+	<div class="media-item" style="margin-left: 0px;">
+		<img src="https://drive.google.com/uc?id=1sRxoJ3Yi6ssPYDStW76LyD9K0UytEeqR" onclick="showMediaModal(this.src);" />
+		<p>Group pic</p>
+	</div>
+	<div class="media-item">
+		<img src="https://drive.google.com/uc?id=1CJSF-iVKmkw4rZ8BOa827tbhA5NB_Mey" onclick="showMediaModal(this.src);" />
+		<p>Poster</p>
+	</div>
+</div>

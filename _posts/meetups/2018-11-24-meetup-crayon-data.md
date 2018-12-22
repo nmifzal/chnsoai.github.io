@@ -42,14 +42,17 @@ In this meetup, we had speakers focusing on Natural Language Processing (NLP) an
 
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/7sMjvv4U9ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-### Group pic
+<br>
 
-<figure>
-  <img src="https://drive.google.com/uc?id=1_rnCaOXKiulMgECKEA33GXhUNONlTjgj" class="typical-image" />
-</figure>
+### Media
 
-### Poster
-
-<figure>
-  <img src="https://drive.google.com/uc?id=19hcBF125IqieGQFonZoPG9BEMb-wHdlm" class="typical-image" />
-</figure>
+<div class="media-wrapper">
+	<div class="media-item" style="margin-left: 0px;">
+		<img src="https://drive.google.com/uc?id=1_rnCaOXKiulMgECKEA33GXhUNONlTjgj" onclick="showMediaModal(this.src);" />
+		<p>Group pic</p>
+	</div>
+	<div class="media-item">
+		<img src="https://drive.google.com/uc?id=19hcBF125IqieGQFonZoPG9BEMb-wHdlm" onclick="showMediaModal(this.src);" />
+		<p>Poster</p>
+	</div>
+</div>

@@ -376,6 +376,8 @@ article.page {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  position: relative;
   @include mobile {
     height: 200px;
   }

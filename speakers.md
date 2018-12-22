@@ -7,6 +7,7 @@ permalink: /profs/
 
 <article class="post">
 	<div class="post-header">
+		<div id="particles-js"></div>
 		<h1>{{ page.title }}</h1>
 		<p class="page_description">Our intellectual speakers who share their valuable knowledge and experience</p>
 		<a href="https://docs.google.com/forms/d/e/1FAIpQLSfueQnshUQrvrWkIF-YzBFKkPWutbgWsa7dodaz77zvOUJXtQ/viewform" target="_blank" class="btn_catcher">Become a Prof</a>

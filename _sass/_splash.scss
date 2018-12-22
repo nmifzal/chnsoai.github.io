@@ -13,13 +13,11 @@
     object-position: center;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
-    @include mobile {
-    	height: 165px;
-    }
 }
 
 .blog-category-box .inner_box {
 	width: 500px;
+    height: 150px;
     border-radius: 5px;
     background-color: #121111;
     margin: 15px;
@@ -76,10 +74,21 @@
     }
 }
 
+.blog-category-box .inner_box .post-box p {
+    font-size: 13px;
+    margin: 5px 0;
+    @include mobile {
+        font-size: 12px;
+    }
+}
+
 .blog-category-box .inner_box .front-date {
-	color: #6b6b6b;
-	font-size: 10px;
-	text-align: right;
+    color: #ffffff38;
+    font-size: 10px;
+    text-align: right;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
 }
 
 .splash-content {
@@ -117,6 +126,7 @@
 .blog-category-box .inner_box .post-box {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .category-wrapper h1 span {

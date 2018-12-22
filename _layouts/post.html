@@ -11,7 +11,11 @@ layout: default
 
 	<div class="entry">
 		{{ content }}
-		{% include disqus.html %}
+		
+		<button class="disqus-button" onclick="showComments(this.id);">Comments</button>
+		<div class="disqus-box" id="disqus-box">
+			{% include disqus.html %}
+		</div>
 	</div>
 </article>
 

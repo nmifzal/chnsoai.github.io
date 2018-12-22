@@ -164,3 +164,29 @@
 .media-modal span:hover {
   transform: scale(1.2);
 }
+
+.disqus-box {
+  display: none;
+}
+
+.disqus-button {
+  width: 120px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  background-color: #a22222;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px auto;
+  cursor: pointer;
+}
+
+.disqus-button:hover {
+  box-shadow: 0 5px 3px rgba(0,0,0,0.12), 0 5px 2px rgba(0,0,0,0.24);
+}

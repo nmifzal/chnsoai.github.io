@@ -41,13 +41,13 @@ function switchTheme(mode) {
 			displayMode = "dark";
 			sessionStorage.setItem("theme", "dark");
 		} else {
-			sheet.setAttribute("href", "/light_mode.css");
+			sheet.setAttribute("href", "/css/light_mode.css");
 			displayMode = "light";
 			sessionStorage.setItem("theme", "light");
 		}
 	} else {
 		if(displayMode == "light") {
-			sheet.setAttribute("href", "/light_mode.css");
+			sheet.setAttribute("href", "/css/light_mode.css");
 		} else {
 			sheet.setAttribute("href", "/style.css");
 		}

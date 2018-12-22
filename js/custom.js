@@ -31,3 +31,25 @@ function showComments() {
 		showdisqus = 1;
 	}
 }
+
+function switchTheme(mode) {
+	var sheet = document.getElementById("main-style-sheet");
+
+	if (mode == 1) {
+		if(displayMode == "light") {
+			sheet.setAttribute("href", "/style.css");
+			displayMode = "dark";
+			sessionStorage.setItem("theme", "dark");
+		} else {
+			sheet.setAttribute("href", "/light_mode.css");
+			displayMode = "light";
+			sessionStorage.setItem("theme", "light");
+		}
+	} else {
+		if(displayMode == "light") {
+			sheet.setAttribute("href", "/light_mode.css");
+		} else {
+			sheet.setAttribute("href", "/style.css");
+		}
+	}
+}

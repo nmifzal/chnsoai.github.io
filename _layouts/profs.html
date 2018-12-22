@@ -12,10 +12,19 @@
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Nunito" rel="stylesheet">
     <meta name="theme-color" content="#a22222" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link id="main-style-sheet" rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <script type="text/javascript" src="/js/custom.js"></script>
+    <script type="text/javascript">
+      var displayMode = sessionStorage.getItem("theme");
+      if(displayMode == undefined || displayMode == "") {
+        sessionStorage.setItem("theme", "dark");
+      } else {
+        sessionStorage.setItem("theme", sessionStorage.getItem("theme"));
+        switchTheme(0);
+      }
+    </script>
   </head>
 
   <body>
@@ -24,6 +33,7 @@
         <a href="{{ site.baseurl }}/">Home</a>
         <a href="{{ site.baseurl }}/profs">Profs</a>
         <a href="{{ site.baseurl }}/about">About</a>
+        <button class="btn-night-mode" id="btn-night-mode" title="Dark/Light mode" onclick="switchTheme(1)"></button>
       </nav>
 
     <div id="main" role="main" class="blog-content">
@@ -33,7 +43,7 @@
     <div class="wrapper-footer footer-fixed">
       <div class="container">
         <footer class="footer">
-          <p>© 2018 - chennai school of ai | made with ❤️ & <a href="https://jekyllrb.com/" target="_blank">jekyll</a></p>
+          <p>© 2018 - chennai school of ai</p>
         </footer>
       </div>
     </div>

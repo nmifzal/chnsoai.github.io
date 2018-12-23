@@ -479,13 +479,13 @@ code {
   width: 500px;
   height: 150px;
   border-radius: 5px;
-  background-color: #ededed;
+  background-color: #fff;
   margin: 15px;
   text-align: center;
   transition: 0.2s ease-in;
   display: flex;
   transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
-  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16);
 }
 @media screen and (max-width: 640px) {
   .blog-category-box .inner_box {
@@ -522,7 +522,7 @@ code {
 }
 @media screen and (max-width: 640px) {
   .blog-category-box .inner_box h3 {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 
@@ -601,7 +601,7 @@ code {
 
 .blog-category-box .inner_box .post-box {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   position: relative;
 }
 
@@ -650,7 +650,7 @@ code {
 .blog-category-box .speakers_box {
   width: 180px;
   border-radius: 5px;
-  background-color: #ededed;
+  background-color: #ffffff;
   margin: 15px;
   text-align: center;
   transition: 0.2s ease-in;
@@ -658,7 +658,7 @@ code {
   flex-direction: column;
   padding-bottom: 10px;
   transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
-  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16);
 }
 @media screen and (max-width: 640px) {
   .blog-category-box .speakers_box {
@@ -703,7 +703,8 @@ code {
 
 .speakers_entry {
   padding-top: 20px;
-  background-color: #ffffff;
+  padding-bottom: 20px;
+  background-color: #f2f2f2;
   margin: 0px auto;
 }
 @media screen and (max-width: 640px) {
@@ -1001,7 +1002,7 @@ hr {
 }
 
 .note {
-  background-color: #2c2c2c;
+  background-color: #eaeaea;
   padding: 10px;
   margin: 20px 0;
   border-radius: 4px;
@@ -1626,4 +1627,41 @@ table, tr, td {
   table, tr, td {
     font-size: 13px;
   }
+}
+
+.circle-meetup {
+    width: 50px;
+    height: 40px;
+    background-image: url(/images/icons/meetup.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.circle-webinar {
+    width: 50px;
+    height: 40px;
+    background-image: url(/images/icons/youtube.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.circle-blog {
+    width: 50px;
+    height: 40px;
+    background-image: url(/images/icons/blog.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 5px;
+}
+
+.f-col-1 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 10px;
 }

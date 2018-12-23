@@ -56,7 +56,7 @@
     color: #c7c6c9;
     margin-bottom: 0px;
     @include mobile {
-        font-size: 13px;
+        font-size: 15px;
     }
 }
 
@@ -125,7 +125,7 @@
 
 .blog-category-box .inner_box .post-box {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: relative;
 }
 
@@ -153,4 +153,41 @@
         border-bottom: 1px solid #ffffff30;
         border-radius: 0px;
     }
+}
+
+.circle-meetup {
+    width: 50px;
+    height: 40px;
+    background-image: url(/images/icons/meetup.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.circle-webinar {
+    width: 50px;
+    height: 40px;
+    background-image: url(/images/icons/youtube.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.circle-blog {
+    width: 50px;
+    height: 40px;
+    background-image: url(/images/icons/blog.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 5px;
+}
+
+.f-col-1 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 10px;
 }

@@ -16,12 +16,14 @@ layout: splash
 				<li>
 					<a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
 						<div class='inner_box'>
-							<img src="{{ post.image }}" />
 							<div class="post-box">
-								<h3>{{ post.title }}</h3>
-								<h5>{{ post.venue }}</h5>
-								<p>{{ post.description }}</p>
-								<p class='front-date'>{{ post.date | date_to_long_string }}</p>
+								<div class="f-col-1"><div class="circle-meetup"></div></div>
+								<div class="f-col-2">
+									<h3>{{ post.title }}</h3>
+									<h5>{{ post.venue }}</h5>
+									<p>{{ post.description }}</p>
+									<p class='front-date'>{{ post.date | date_to_long_string }}</p>
+								</div>
 							</div>
 						</div>
 					</a>
@@ -47,11 +49,13 @@ layout: splash
 				<li>
 					<a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
 						<div class='inner_box'>
-							<img src="{{ post.image }}" />
 							<div class="post-box">
-								<h3>{{ post.title }}</h3>
-								<p>{{ post.description }}</p>
-								<p class='front-date'>{{ post.date | date_to_long_string }}</p>
+								<div class="f-col-1"><div class="circle-webinar"></div></div>
+								<div class="f-col-2">
+									<h3>{{ post.title }}</h3>
+									<p>{{ post.description }}</p>
+									<p class='front-date'>{{ post.date | date_to_long_string }}</p>
+								</div>
 							</div>
 						</div>
 					</a>
@@ -70,23 +74,23 @@ layout: splash
 	</div>
 
 	<div class="blog-category-box padding-box">
-		<div class="category-box row-box">
+		<div class="category-box">
 			<ul>
 				{% for post in site.posts %}
 				{% if post.category contains 'blog' %}
 				<li>
-					<div class='blog_box'>
-						<a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
+					<a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
+						<div class='inner_box'>
 							<div class='post-box'>
-								<img src="{{ post.image }}" class="blog-image" />
-								<div class="post-box">
+								<div class="f-col-1"><div class="circle-blog"></div></div>
+								<div class="f-col-2">
 									<h3>{{ post.title }}</h3>
 									<p>{{ post.description }}</p>
 									<p class='front-date'>{{ post.date | date_to_long_string }}</p>
 								</div>
 							</div>
-						</a>
-					</div>
+						</div>
+					</a>
 				</li>
 				{% endif %}
 				{% endfor %}

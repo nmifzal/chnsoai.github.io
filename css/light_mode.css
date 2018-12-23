@@ -964,8 +964,9 @@ code {
 }
 
 .disqus-button {
-  width: 120px;
-  height: 40px;
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
   padding: 10px;
   border-radius: 4px;
   box-shadow: none;
@@ -1149,12 +1150,12 @@ img {
 
 ::-moz-selection {
   color: #000;
-  background: #eee;
+  background: #fff329b3;
 }
 
 ::selection {
   color: #000;
-  background: #eee;
+  background: #fff329b3;
 }
 
 .clearfix:before,
@@ -1312,13 +1313,18 @@ article.post {
 }
 
 .post blockquote {
-  margin: 1.8em .8em;
-  border-left: 2px solid #666;
-  padding: 0.1em 1em;
-  color: #666;
+  margin: 20px 0;
+  background-color: #1d1d1d;
+  padding: 10px 20px;
+  color: #fff;
   font-size: 22px;
-  font-style: italic;
+  border-radius: 4px;
 }
+
+.post blockquote p {
+  color: #fff;
+}
+
 .post .comments {
   margin-top: 10px;
 }
@@ -1578,7 +1584,7 @@ img.typical-image {
 
 .toc {
   width: 35%;
-  border: 1px solid #cccccc;
+  border: 1px solid #e6e6e6;
   padding: 10px 20px;
   border-radius: 4px;
 }

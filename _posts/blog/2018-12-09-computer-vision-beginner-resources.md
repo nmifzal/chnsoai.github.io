@@ -19,9 +19,12 @@ authorpic: https://drive.google.com/uc?id=19UCKEQVrEiqSL1sEVmUo1KO6mZScxei4
 		<li><a href="#blogs">Blogs</a></li>
 		<li><a href="#libraries">Libraries</a></li>
 		<li><a href="#datasets">Datasets</a></li>
+		<li><a href="#books">Books</a></li>
 		<li><a href="#bonus-resources">Bonus Resources</a></li>
 	</ul>
 </div>
+
+> If We Want Machines to Think, We Need to Teach Them to See - Fei Fei Li, Director of Stanford AI Lab and Stanford Vision Lab
 
 Computer Vision is a broad field that has gained massive attraction after AlexNet competed in ImageNet Large Scale Visual Recognition Challenge (2012). Below you can see the Google trend of **Computer Vision** keyword being searched over the past 5 years.
 
@@ -98,6 +101,7 @@ There are so many CV blogs that deliver top-notch tutorials on how to use a spec
 * [Pyimagesearch - Adrian Rosebrock](https://www.pyimagesearch.com/){:target="_blank"}
 * [Learn OpenCV - Satya Mallick](https://www.learnopencv.com/){:target="_blank"}
 * [Tombone's Computer Vision Blog](http://www.computervisionblog.com/){:target="_blank"}
+* [Machine Learning Mastery](https://machinelearningmastery.com/){:target="_blank"}
 * [Zbigatron](https://zbigatron.com/){:target="_blank"}
 * [Gil's CV Blog](https://gilscvblog.com/){:target="_blank"}
 * [The Serious Computer Vision Blog](https://computervisionblog.wordpress.com/){:target="_blank"}
@@ -184,6 +188,19 @@ When it comes to making a computer learn images/videos, we need datasets. There 
 
 * [102 Category Flower Dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/){:target="_blank"}
 * [Caltech-UCSD Birds 200](http://www.vision.caltech.edu/visipedia/CUB-200.html){:target="_blank"}
+
+---
+
+<h3 id="books">Books</h3>
+
+Some of the books that I read regularly and refer, related to Computer Vision, Deep Learning and Machine Learning are as follows.
+
+* [Deep Learning](http://www.deeplearningbook.org/){:target="_blank"} by Ian Goodfellow, Yoshua Bengio and Aaron Courville.
+* [Deep Learning Review](https://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf){:target="_blank"} by Yaan LeCun, Yoshua Bengio and Geoffrey Hinton.
+* [Deep Learning with Python](https://www.amazon.in/Deep-Learning-Python-Francois-Chollet/dp/1617294438){:target="_blank"} by François Chollet.
+* [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/){:target="_blank"} by Michael Nielsen.
+* [Computer Vision: Algorithms and Applications](https://www.amazon.in/Computer-Vision-Algorithms-Applications-Science/dp/1848829345){:target="_blank"} by Richard Szeliski.
+* [Hands–On Machine Learning with Scikit–Learn and TensorFlow](https://www.amazon.in/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291){:target="_blank"} by Aurelien Geron.
 
 ---
 

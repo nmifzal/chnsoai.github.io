@@ -167,12 +167,13 @@ img {
 }
 
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: #000;
+  background: #fff329b3;
 }
+
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: #000;
+  background: #fff329b3;
 }
 
 .clearfix:before,
@@ -323,12 +324,16 @@ article.post {
 
 .post {
   blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
+    margin: 20px 0;
+    background-color: #2c2c2c;
+    padding: 10px 20px;
+    color: #fff;
     font-size: 22px;
-    font-style: italic;
+    border-radius: 4px;
+
+    p {
+      color: #939393;
+    }
   }
 
   .comments {

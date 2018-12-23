@@ -24,7 +24,7 @@ authorpic: https://drive.google.com/uc?id=19UCKEQVrEiqSL1sEVmUo1KO6mZScxei4
 	</ul>
 </div>
 
-> If We Want Machines to Think, We Need to Teach Them to See - Fei Fei Li, Director of Stanford AI Lab and Stanford Vision Lab
+> If We Want Machines to Think, We Need to Teach Them to See - [Fei Fei Li](http://vision.stanford.edu/feifeili/){:target="_blank"}, Director of [Stanford AI Lab](http://ai.stanford.edu/){:target="_blank"} and [Stanford Vision Lab](http://vision.stanford.edu/){:target="_blank}.
 
 Computer Vision is a broad field that has gained massive attraction after AlexNet competed in ImageNet Large Scale Visual Recognition Challenge (2012). Below you can see the Google trend of **Computer Vision** keyword being searched over the past 5 years.
 
@@ -206,7 +206,7 @@ Some of the books that I read regularly and refer, related to Computer Vision, D
 
 <h3 id="bonus-resources">Bonus Resources</h3>
 
-Below are some additional resources that you could use to learn more about Computer Vision.
+Below are some additional resources that you could use to learn more about Computer Vision, Machine Learning and Deep Learning.
 
 * [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision){:target="_blank"}
 * [Awesome Deep Vision](https://github.com/kjw0612/awesome-deep-vision){:target="_blank"}

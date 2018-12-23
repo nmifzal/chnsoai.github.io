@@ -978,7 +978,7 @@ code {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 50px auto;
+  margin: 20px auto;
   cursor: pointer;
 }
 
@@ -998,7 +998,7 @@ body {
 }
 
 hr {
-  border-color: #f4f4f412;
+  border-color: #f4f4f469;
   margin: 25px 0;
 }
 
@@ -1088,6 +1088,7 @@ ul a {
 }
 
 ul a:hover {
+  color: #e23d3d;
   border-bottom: 1px solid white;
 }
 
@@ -1458,6 +1459,7 @@ footer p {
   background-color: #ffffff;
   border-radius: 5px;
   margin-bottom: 50px;
+  box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16);
 }
 @media screen and (max-width: 640px) {
   .entry {
@@ -1587,6 +1589,7 @@ img.typical-image {
   border: 1px solid #e6e6e6;
   padding: 10px 20px;
   border-radius: 4px;
+  background-color: #fafafa;
 }
 @media screen and (max-width: 640px) {
   .toc {

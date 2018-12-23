@@ -6,6 +6,7 @@ image: /images/blog/computer-vision-resources.png
 featureimage: /images/logo.png
 category: blog
 author: Gogul Ilango
+authorpic: https://drive.google.com/uc?id=19UCKEQVrEiqSL1sEVmUo1KO6mZScxei4
 ---
 
 <div class="toc">

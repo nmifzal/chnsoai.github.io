@@ -1083,7 +1083,7 @@ a {
 }
 
 ul a {
-  color: white;
+  color: black;
 }
 
 ul a:hover {
@@ -1524,7 +1524,7 @@ img.typical-image {
 
 .cover-author {
   margin: 5px 0;
-  color: #b3b3b3;
+  color: #d8d8d8d6;
 }
 
 .category-header {
@@ -1578,7 +1578,7 @@ img.typical-image {
 
 .toc {
   width: 35%;
-  border: 1px solid #2a2828;
+  border: 1px solid #cccccc;
   padding: 10px 20px;
   border-radius: 4px;
 }
@@ -1664,4 +1664,18 @@ table, tr, td {
     justify-content: center;
     align-items: baseline;
     padding: 10px;
+}
+
+.circle-author {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.cover-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
 }

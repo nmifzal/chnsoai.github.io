@@ -6,6 +6,7 @@ image: https://drive.google.com/uc?id=1hL9xU8nKEHeLQsDNqwA6eKlinX7SpwuE
 featureimage: /images/logo.png
 category: webinar
 author: Dr.Mohan Raj, PhD
+authorpic: https://drive.google.com/uc?id=1K3hQ_si8o5SrjE2I8SSmX8otVwDwmyS4
 ---
 
 ### Summary

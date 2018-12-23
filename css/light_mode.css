@@ -522,7 +522,7 @@ code {
 }
 @media screen and (max-width: 640px) {
   .blog-category-box .inner_box h3 {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -1614,6 +1614,22 @@ img.typical-image {
 
 .btn-night-mode:focus {
   outline: none;
+  background-color: transparent;
+}
+
+.btn-night-mode:active {
+  outline: none;
+  background-color: transparent;
+}
+
+.btn-night-mode:visited {
+  outline: none;
+  background-color: transparent;
+}
+
+.btn-night-mode:focus-within {
+  outline: none;
+  background-color: transparent;
 }
 
 table, tr, td {

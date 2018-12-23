@@ -496,7 +496,7 @@ code {
 
 .blog-category-box .inner_box:hover {
   box-shadow: 0 5px 9px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  background-color: #cccccc;
+  background-color: #f7f7f7;
 }
 
 .blog-category-box .inner_box h5 {
@@ -669,7 +669,7 @@ code {
 
 .blog-category-box .speakers_box:hover {
   box-shadow: 0 5px 9px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  background-color: #e2e2e2;
+  background-color: #f7f7f7;
 }
 
 .blog-category-box .speakers_box h3 {

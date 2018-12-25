@@ -1761,6 +1761,7 @@ figcaption {
   padding: 10px;
   font-size: 13px;
   text-align: center;
+  line-height: 1.6;
   color: black;
   margin: 0;
 }

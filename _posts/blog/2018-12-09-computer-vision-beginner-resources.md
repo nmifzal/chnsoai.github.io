@@ -2,7 +2,7 @@
 layout: post
 title: Computer Vision Beginner Resources
 description: In this blog post, you will find resources, libraries, blogs, courses and educational content for beginners in Computer Vision. Feel free to share it with people interested.
-image: /images/blog/computer-vision-resources.png
+icon: /images/icons/blog.png
 featureimage: /images/logo.png
 category: blog
 author: Gogul Ilango

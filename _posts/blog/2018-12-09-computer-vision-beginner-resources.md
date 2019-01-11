@@ -6,7 +6,7 @@ icon: /images/icons/blog.png
 featureimage: /images/logo.png
 category: blog
 author: Gogul Ilango
-authorpic: https://drive.google.com/uc?id=19UCKEQVrEiqSL1sEVmUo1KO6mZScxei4
+authorpic: https://drive.google.com/uc?id=1pg7R9OxRIWv6saDOjoPpgl9nMRB5F-Yd
 ---
 
 <div class="toc">

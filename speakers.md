@@ -75,7 +75,7 @@ permalink: /profs/
 							<div class="speakers_circle" style="background-image: url('https://drive.google.com/uc?id=13b2IBU3-uWVBKJHrQcyoSNdJOayJllG1')"></div>
 							<div class="post-box">
 								<h3>Vishal Gupta</h3>
-								<p>GSoc'18 at Debian | GCI'18 mentor at KDE</p>
+								<p>Data Science Intern at Freshworks</p>
 								<div class="speaker_social">
 									<a href="http://vishalgupta.me/projects/" target="_blank"><img src="/images/icons/web.png"></a>
 									<a href="https://github.com/py-ranoid" target="_blank"><img src="/images/icons/github.png"></a>
@@ -104,6 +104,31 @@ permalink: /profs/
 								<p>Developer/Co-founder @ Coffee</p>
 								<div class="speaker_social">
 									<a href="https://www.linkedin.com/in/gaurav-g-punjabi/" target="_blank"><img src="/images/icons/linkedin.png"></a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class='speakers_box'>
+							<div class="speakers_circle" style="background-image: url('https://drive.google.com/uc?id=192a5bh1Omd9cXzpu84U2U5z-NEAgDbJz')"></div>
+							<div class="post-box">
+								<h3>Arun Ponnusamy</h3>
+								<p>Senior Computer Vision Engineer at 1000Lookz</p>
+								<div class="speaker_social">
+									<a href="https://www.linkedin.com/in/arun-ponnusamy/" target="_blank"><img src="/images/icons/linkedin.png"></a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class='speakers_box'>
+							<div class="speakers_circle" style="background-image: url('https://drive.google.com/uc?id=1YHdQyqrfSeEzLKUHT2eBMRsfXmC1Ybi5')"></div>
+							<div class="post-box">
+								<h3>Rohith Srinivaas</h3>
+								<p>Strategist at Computer Vision Group, IIT Madras</p>
+								<div class="speaker_social">
+									<a href="https://iitmcvg.github.io/" target="_blank"><img src="/images/icons/web.png"></a>
+									<a href="https://www.linkedin.com/in/rohith-srinivaas-m-68311a129/" target="_blank"><img src="/images/icons/linkedin.png"></a>
 								</div>
 							</div>
 						</div>

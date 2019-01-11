@@ -10,7 +10,7 @@
     <![endif]-->
     
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand|Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Nunito|Roboto:300|Roboto:700" rel="stylesheet">
     <meta name="theme-color" content="#a22222" />
     <link id="main-style-sheet" rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
@@ -19,7 +19,7 @@
     <script type="text/javascript">
       var displayMode = sessionStorage.getItem("theme");
       if(displayMode == undefined || displayMode == "") {
-        sessionStorage.setItem("theme", "dark");
+        sessionStorage.setItem("theme", "light");
       } else {
         sessionStorage.setItem("theme", displayMode);
         switchTheme(0);

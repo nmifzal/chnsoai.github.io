@@ -1809,6 +1809,7 @@ figcaption {
 }
 
 .headline-img img {
-    height: 160px;
-    border-radius: 4px;
+  height: 160px;
+  border-radius: 4px;
+  cursor: pointer;
 }

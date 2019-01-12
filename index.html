@@ -14,7 +14,7 @@ layout: splash
 			</ul>
 		</div>
 		<div class="headline-img">
-			<img src="https://drive.google.com/uc?id=1y5zCJX-9Spx_M2PxxR2ZgaxOY2wnxTLZ" />
+			<img src="https://drive.google.com/uc?id=1y5zCJX-9Spx_M2PxxR2ZgaxOY2wnxTLZ" onclick="showMediaModal('https://drive.google.com/uc?id=1y5zCJX-9Spx_M2PxxR2ZgaxOY2wnxTLZ')" />
 		</div>
 	</div>
 </div>
@@ -169,4 +169,10 @@ layout: splash
 			</ul>
 		</div>
 	</div>
+</div>
+
+<div id="media-modal" class="media-modal">
+  <span class="media-close" onclick="closeMediaModal()">&times;</span>
+  <img class="media-modal-content" id="media-modal-content">
+  <div id="media-modal-caption"></div>
 </div>

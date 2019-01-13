@@ -1813,3 +1813,17 @@ figcaption {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.google-player {
+  width:640px; 
+  height:480px; 
+  display:none; 
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 640px) {
+  .google-player {
+    width: 100%;
+  }
+}

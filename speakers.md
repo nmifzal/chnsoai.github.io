@@ -110,11 +110,27 @@ permalink: /profs/
 					</li>
 					<li>
 						<div class='speakers_box'>
+							<div class="speakers_circle" style="background-image: url('https://drive.google.com/uc?id=1WaYgAoicJCJy5pvwnBbmvgTKViKJ-Sjb')"></div>
+							<div class="post-box">
+								<h3>Dr.Karthikeyan Vaiapury</h3>
+								<p>Retail Research Vision Head and Scientist at Tata Consultancy Services Limited</p>
+								<div class="speaker_social">
+									<a href="https://www.linkedin.com/in/karthikeyanvaiapury/" target="_blank"><img src="/images/icons/linkedin.png"></a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class='speakers_box'>
 							<div class="speakers_circle" style="background-image: url('https://drive.google.com/uc?id=192a5bh1Omd9cXzpu84U2U5z-NEAgDbJz')"></div>
 							<div class="post-box">
 								<h3>Arun Ponnusamy</h3>
 								<p>Senior Computer Vision Engineer at 1000Lookz</p>
 								<div class="speaker_social">
+									<a href="https://www.arunponnusamy.com/" target="_blank"><img src="/images/icons/web.png"></a>
+									<a href="https://github.com/arunponnusamy" target="_blank"><img src="/images/icons/github.png"></a>
+									<a href="https://medium.com/@arunponnusamy" target="_blank"><img src="/images/icons/medium.png"></a>
+									<a href="https://twitter.com/ponnusamy_arun" target="_blank"><img src="/images/icons/twitter.png"></a>
 									<a href="https://www.linkedin.com/in/arun-ponnusamy/" target="_blank"><img src="/images/icons/linkedin.png"></a>
 								</div>
 							</div>

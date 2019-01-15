@@ -995,7 +995,7 @@ html {
 
 body {
   background: #ededed;
-  font-family: "Nunito";
+  font-family: "Roboto";
   color: #333;
   background-attachment: fixed;
 }
@@ -1035,7 +1035,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito";
+  font-family: "Poppins";
   color: #222;
   font-weight: bold;
   line-height: 1.5;
@@ -1223,7 +1223,7 @@ img {
   margin: 0;
   color: #ededed;
   cursor: pointer;
-  font-family: "Nunito";
+  font-family: "Poppins";
   font-weight: bold;
   font-size: 30px;
   letter-spacing: 1px;
@@ -1239,7 +1239,7 @@ img {
   margin: 3px auto !important;
   color: #ffffff7a;
   font-size: 16px;
-  font-family: "Nunito";
+  font-family: "Roboto";
   line-height: 1.7;
 }
 @media screen and (max-width: 640px) {
@@ -1252,7 +1252,7 @@ img {
 }
 
 nav {
-  font-family: "Nunito";
+  font-family: "Roboto";
   font-size: 18px;
   background-color: #a22222;
   text-align: center;
@@ -1826,4 +1826,17 @@ figcaption {
   .google-player {
     width: 100%;
   }
+}
+
+.social-buttons {
+    margin: 10px 0;
+}
+
+.blog-category-box .inner_box h5 {
+  font-family: "Roboto";
+}
+
+.toc h3 {
+    margin: 0;
+    font-size: 14px;
 }
